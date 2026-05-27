@@ -311,7 +311,7 @@ async function escalonarEnvio(grupos, mensagem, imagem) {
   const agora = Date.now();
 
   // 🔧 CONFIGURAÇÕES
-  const MIN_MENSAGENS = 10;
+  const MIN_MENSAGENS = 25;
   const MAX_TEMPO_INATIVO = 30 * 60 * 1000; // 30 min
   const COOLDOWN_ENVIO = 60 * 60 * 1000; // 1 hora
   const RESET_GRUPO_MORTO = 2 * 60 * 60 * 1000; // 2 horas
