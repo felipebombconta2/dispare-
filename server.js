@@ -16,7 +16,7 @@ let primeiroCiclo = true; // 🔥 ESSENCIAL
 
 
 // ======================================
-// 🔧  PATHS
+// 🔧  PATHS 
 // ======================================
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
