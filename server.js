@@ -5,7 +5,6 @@ import { fileURLToPath } from "url";
 import fs from "fs";
 import multer from "multer";
 import QRCode from "qrcode";
-
 import makeWASocket, {
   useMultiFileAuthState,
   fetchLatestBaileysVersion
